@@ -1,0 +1,5 @@
+export var httpOperation={
+    registerData=()=>{
+        
+    }
+}

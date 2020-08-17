@@ -1,0 +1,42 @@
+.menuBar{
+    height: 100vh;
+    width: 100%;
+    background-color: #1b262c;
+    overflow:hidden;
+    transition:width .3s ease;
+    cursor:pointer;
+    box-shadow:4px 7px 5px rgba(0,0,0,.4);
+    
+
+}
+.menuBar ul{
+    padding: 0px;
+}
+.menuBar ul li {
+   margin: none;
+   color: #bbe1fa;
+   list-style-type: none;
+   
+}
+.menuBar ul li .editProperty{
+ width: 100%;
+ padding: 10px;
+ height: auto;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ padding-left: 15px;
+ border-bottom: 1px solid  #0f4c75;
+}
+.menuBar ul li :hover{
+    background-color: #416e8b;
+}
+.menuBar ul .activeAction{
+    background-color: #0f4c75;
+}
+
+
+.propertyDropdown{
+   position: absolute;
+    left: 50%;
+    background: #28aaf0;
+}
